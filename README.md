@@ -1,10 +1,10 @@
-# VL53L8CX_I2C_DRIVER
-An implementation of VL53L8CX I2C driver based on STM's VL53L8CX Ultra-light Driver (ULD) 2.0.0.
-https://www.st.com/en/embedded-software/stsw-img040.html
+# VL53L5CX_I2C_DRIVER
+An implementation of VL53L5CX I2C driver based on STM's VL53L5CX Ultra-light Driver (ULD) 2.0.0.
+https://www.st.com/en/embedded-software/stsw-img025.html
 
 ## Environment tested
-Device: Pololu VL53L8CX carrier board
-https://www.pololu.com/product/3419
+Device: VL53L5CX Sensor Module
+https://www.aliexpress.com/i/1005005876674533.html
 
 Host Device: Raspberry Pi 4B / Orange Pi 5
 
@@ -35,7 +35,7 @@ sudo reboot
 
 
 ## Connections
-[Carrier Board] -> [RPi]
+[Sensor Module] -> [RPi]
 
 Vcc -> 3.3V
 
